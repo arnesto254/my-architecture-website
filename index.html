@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogers Architecture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rogers Makini Architecture</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#styles">Styles</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to the World of Architecture</h2>
+        <p>Discover the beauty and complexity of architectural design.</p>
+        <img src="images/home.jpg" alt="Architecture Image">
+    </section>
+    <section id="about">
+        <h2>About Architecture</h2>
+        <p>Architecture is both the process and the product of planning, designing, and constructing buildings or other
+            structures. Architectural works, in the material form of buildings, are often perceived as cultural symbols
+            and as works of art. Historical civilizations are often identified with their surviving architectural
+            achievements.</p>
+    </section>
+    <section id="styles">
+        <h2>Architectural Styles</h2>
+        <article>
+            <h3>Gothic Architecture</h3>
+            <p>Gothic architecture is a style that flourished in Europe during the High and Late Middle Ages. It evolved
+                from Romanesque architecture and was succeeded by Renaissance architecture. Its characteristics include
+                the pointed arch, the ribbed vault, and the flying buttress.</p>
+            <img src="images/gothic.jpg" alt="Gothic Architecture">
+        </article>
+        <article>
+            <h3>Baroque Architecture</h3>
+            <p>Baroque architecture began in the late 16th century in Italy and took the Roman vocabulary of the
+                Renaissance and used it in a new rhetorical and theatrical fashion, often to express the triumph of the
+                Catholic Church and the absolutist state.</p>
+            <img src="images/baroque.jpg" alt="Baroque Architecture">
+        </article>
+        <article>
+            <h3>Modern Architecture</h3>
+            <p>Modern architecture, or modernist architecture, is a style of architecture that emerged in the first half
+                of the 20th century and became dominant after World War II. It emphasizes function, simplicity, and a
+                lack of ornamentation.</p>
+            <img src="images/modern.jpg" alt="Modern Architecture">
+        </article>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item"><img src="images/gothic.jpg" alt="Gothic Cathedral">
+            <p>Gothic Cathedral</p>
+        </div>
+        <div class="gallery-item"><img src="images/baroque.jpg" alt="Baroque Palace">
+            <p>Baroque Palace</p>
+        </div>
+        <div class="gallery-item"><img src="images/modern.jpg" alt="Modern Building">
+            <p>Modern Building</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Architecture. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
